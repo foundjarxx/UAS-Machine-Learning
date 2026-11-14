@@ -1,0 +1,53 @@
+{
+  "best_model": "Linear SVM",
+  "labels": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "results": [
+    {
+      "model": "Multinomial Naive Bayes",
+      "cv_acc": 0.735,
+      "test_acc": 0.76,
+      "precision": 0.8362,
+      "recall": 0.6491,
+      "f1": 0.6395
+    },
+    {
+      "model": "Linear SVM",
+      "cv_acc": 0.825,
+      "test_acc": 0.79,
+      "precision": 0.7459,
+      "recall": 0.7358,
+      "f1": 0.7395
+    },
+    {
+      "model": "Logistic Regression",
+      "cv_acc": 0.805,
+      "test_acc": 0.77,
+      "precision": 0.7279,
+      "recall": 0.7195,
+      "f1": 0.7229
+    }
+  ],
+  "confusion_matrix": [
+    [
+      35,
+      3,
+      3
+    ],
+    [
+      8,
+      9,
+      1
+    ],
+    [
+      2,
+      4,
+      35
+    ]
+  ],
+  "n_train": 400,
+  "n_test": 100
+}
